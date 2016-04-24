@@ -7,4 +7,4 @@ jenkins:
     - "/var/jenkins_home"
   privileged: true
   environment:
-    - VIRTUAL_HOST:jenkins.webdev.pro
+    - VIRTUAL_HOST=jenkins.webdev.pro
