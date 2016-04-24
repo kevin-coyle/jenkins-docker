@@ -1,9 +1,10 @@
 jenkins:
   build : .
   ports:
-    - "8080"
     - "50000"
     - "80"
   volumes:
     - "/var/jenkins_home"
   privileged: true
+  environment:
+    - VIRTUAL_HOST:jenkins.webdev.pro
