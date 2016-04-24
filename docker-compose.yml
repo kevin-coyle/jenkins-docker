@@ -8,3 +8,4 @@ jenkins:
   privileged: true
   environment:
     - VIRTUAL_HOST=jenkins.webdev.pro
+  restart: always
